@@ -1,0 +1,30 @@
+{
+  "name": "eco-finder",
+  "version": "0.0.0",
+  "description": "find eco code and details by fen or pgn",
+  "keywords": [
+    "chess",
+    "eco",
+    "encyclopedia of chess openings",
+    "chess openings",
+    "eco codes"
+  ],
+  "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vjuneja/eco-finder.git"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chess.js": "^0.10.2",
+    "mocha": "^5.2.0"
+  }
+}
